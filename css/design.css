@@ -1,0 +1,147 @@
+/* =================== */
+/* COLORS */
+/* =================== */
+
+:root {
+
+    /* Neutral Colors */
+    --neutral-black: #263238;
+    --neutral-d_grey: #4D4D4D;
+    --neutral-grey: #717171;
+    --neutral-l_grey: #89939E;
+    --neutral-grey_blue: #ABBED1;
+    --neutral-silver: #F5F7FA;
+    --neutral-white: #FFFFFF;
+
+    /* Primary, Secondary, Info */
+    --primary: #4CAF4F;
+    --secondary: #263238;
+    --info: #2194f3;
+
+    /* Color Shades */
+    --primary-shade-1: #43A046;
+    --primary-shade-2: #388E3B;
+    --primary-shade-3: #237D31;
+    --primary-shade-4: #1B5E1F;
+    --primary-shade-5: #103E13;
+
+    /* Color Tints */
+    --primary-tint-1: #6BBF69;
+    --primary-tint-2: #81C784;
+    --primary-tint-3: #A5D6A7;
+    --primary-tint-4: #C8E6C9;
+    --primary-tint-5: #E8F5E9;
+
+    /* Action Colors */
+    --warning: #FBC02D;
+    --error: #E53835;
+    --success: #2E7D31;
+
+}
+
+
+
+/* =================== */
+/* TYPOGRAPHY */
+/* =================== */
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 6.4rem;
+    line-height: 7.6rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+
+.body1 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+}
+
+.body2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+
+.body3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.body4 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+.body1-medium {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+}
+
+.body2-medium {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+
+.body3-medium {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.body4-medium {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+
+/* =================== */
+/* SHADOWS */
+/* =================== */
+
+.shadow-2px {
+    box-shadow: 0 2px 16px 0 rgba(171, 190, 209, 0.6);
+}
+
+.shadow-4px {
+    box-shadow: 0 4px 24px 0 rgba(171, 190, 209, 0.4);
+}
+
+.shadow-6px {
+    box-shadow: 0 6px 32px 0 rgba(171, 190, 209, 0.3);
+}
+
+.shadow-8px {
+    box-shadow: 0 8px 40px 0 rgba(171, 190, 209, 0.4);
+}
+
+.shadow-16px {
+    box-shadow: 0 16px 56px 0 rgba(171, 190, 209, 0.3);
+}
