@@ -1,6 +1,36 @@
-/* =================== */
-/* COLORS */
-/* =================== */
+/* * =================== */
+/* *  GLOBAL*/
+/* * =================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body * {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--neutral-d_grey, #000);
+}
+
+
+
+
+/* * =================== */
+/* * COLORS */
+/* * =================== */
 
 :root {
 
@@ -41,9 +71,9 @@
 
 
 
-/* =================== */
-/* TYPOGRAPHY */
-/* =================== */
+/* * =================== */
+/* * TYPOGRAPHY */
+/* * =================== */
 
 html {
     font-size: 10px;
@@ -122,9 +152,9 @@ h4 {
 }
 
 
-/* =================== */
-/* SHADOWS */
-/* =================== */
+/* * =================== */
+/* * SHADOWS */
+/* * =================== */
 
 .shadow-2px {
     box-shadow: 0 2px 16px 0 rgba(171, 190, 209, 0.6);
