@@ -1,7 +1,7 @@
 const listIcon = document.querySelector(".bi-list");
 const slider = document.querySelector("nav .content");
 const exit = slider.querySelector("i");
-console.log(exit);
+
 listIcon.addEventListener("click", () => {
     slider.style.setProperty("right", "0");
     slider.style.setProperty("transition", ".3s");

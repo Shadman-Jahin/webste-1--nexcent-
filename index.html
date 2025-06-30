@@ -22,19 +22,19 @@
 
     <header>
         <!-- NAVIGATION -->
-        <nav class="container">
+        <nav>
             <div class="row">
                 <div class="col-3 align-content-center">
                     <img src="/images/header/Logo.png" alt="logo">
                 </div>
                 <div class="col-9  content">
                     <i class="bi d-md-none bi-x-lg"></i>
-                    <ul>
+                    <ul id="spy-id">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#" class="active">Home</a>
                         </li>
                         <li>
-                            <a href="#clients">Features</a>
+                            <a href="#community">Features</a>
                         </li>
                         <li>
                             <a href="#updates">Community</a>
@@ -80,7 +80,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main data-bs-spy="scroll" data-bs-target="#spy-id" data-bs-smooth-scroll="true" tabindex="0">
         <!-- * ======== -->
         <!-- * CLIENTS -->
         <section id="clients">
