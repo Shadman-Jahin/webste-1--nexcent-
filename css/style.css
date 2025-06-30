@@ -322,3 +322,415 @@ header .header-content .dot>span:first-child {
 #body .text button {
     margin-top: 22.27px;
 }
+
+
+/* * ================ */
+/* * ACHIEVEMENT */
+/* * ================ */
+
+#achievement {
+    padding: 44px 0;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+/* -------- */
+/* TEXT */
+
+#achievement .text {
+    width: clamp(250px, 100%, 375.878px);
+}
+
+#achievement .text h2 {
+    color: var(--neutral-d_grey, #4D4D4D);
+    font-size: 26.059px;
+    font-weight: 600;
+    line-height: 30.627px;
+    width: clamp(250px, 100%, 283.996px);
+}
+
+#achievement .text h2>span {
+    color: var(--primary, #4CAF4F);
+    font-size: 25.059px;
+    font-weight: 600;
+    line-height: 30.627px;
+}
+
+#achievement .text p {
+    margin-top: 5.5px;
+    color: var(--neutral-black, #18191F);
+    font-family: Inter;
+    font-size: 11.137px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.706px;
+
+}
+
+/* --------- */
+/* COUNT */
+
+
+#achievement .count .detail {
+    display: flex;
+    gap: 11.5px;
+}
+
+#achievement .count .detail h3 {
+    color: var(--neutral-d_grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 19.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.059px;
+}
+
+#achievement .count .detail p {
+    color: var(--neutral-grey, #717171);
+    font-size: 11.137px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.706px;
+}
+
+
+/* * =============== */
+/* * CALENDER */
+/* * =============== */
+
+#calender {
+    padding: 33px 0;
+}
+
+/* -------- */
+/* IMAGE */
+
+#calender .image img {
+    width: clamp(250px, 100%, 307.663px);
+}
+
+
+/* -------- */
+/* TEXT */
+
+#calender .text {
+    width: clamp(250px, 100%, 460.102px);
+}
+
+#calender .text h2 {
+    color: var(--neutral-d_grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 26.059px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30.627px;
+}
+
+#calender .text p {
+    margin-top: 11.5px;
+    color: var(--neutral-grey, #717171);
+}
+
+#calender .text button {
+    margin-top: 22.27px;
+}
+
+
+/* * =============== */
+/* * CUSTOMER */
+/* * =============== */
+#customer {
+    padding: 22.3px 0;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+/* -------- */
+/* IMAGE */
+
+#customer .image img {
+    width: clamp(250px, 100%, 226.919px);
+}
+
+/* -------- */
+/* TEXT */
+
+#customer .text {
+    width: clamp(250px, 100%, 521px);
+}
+
+#customer .text p {
+    color: var(--neutral-grey, #717171);
+    font-size: 11.137px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.706px;
+}
+
+#customer .text h4 {
+    margin-top: 11.5px;
+    color: var(--primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 13.921px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.49px;
+    /* 140% */
+}
+
+#customer .text cite {
+    color: var(--neutral-l_grey, #89939E);
+    font-size: 11.137px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.706px;
+}
+
+#customer .text .logos {
+    margin-top: 22.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#customer .text .logos img {
+    width: 27.843px;
+    height: 27.843px;
+}
+
+#customer .text .logos a {
+    color: var(--Brand-Primary, #4CAF4F);
+    font-size: 13.921px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.49px;
+}
+
+#customer .text .logos a:hover {
+    color: var(--primary-shade-2, #388E3B);
+}
+
+
+/* ================= */
+/*  COMMUNITY UPDATES*/
+/* ================= */
+
+
+#updates {
+    padding: 33px 0;
+}
+
+/* ========= */
+/* TEXT */
+
+#updates .text {
+    width: clamp(250px, 100%, 437.132px);
+    text-align: center;
+    margin: auto;
+}
+
+#updates .text h2 {
+    color: var(--neutral-d_grey, #4D4D4D);
+    font-size: 25.059px;
+    font-weight: 600;
+    line-height: 30.627px;
+}
+
+#updates .text p {
+    margin-top: 5.5px;
+    color: var(--neutral-grey, #717171);
+}
+
+/* ========= */
+/* CARDS */
+
+#updates .cards {
+    margin-top: 11.5px;
+}
+
+#updates .cards .content {
+    position: relative;
+    width: 256px;
+    height: 200px;
+    border-radius: 5.5px;
+    margin: auto;
+    margin-bottom: 61.08px;
+}
+
+/* IMAGE */
+
+#updates .cards .content .image {
+    position: absolute;
+    inset: 0;
+    border-radius: 5.5px;
+}
+
+#updates .cards .content .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5.5px;
+}
+
+/* TEXT CONTENT */
+
+#updates .cards .content .detail {
+    text-align: center;
+    width: clamp(150px, 100%, 200px);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: -50% 50%;
+    padding: 11.137px;
+    border-radius: 5.5px;
+    background: var(--neutral-silver, #F5F7FA);
+    box-shadow: 0px 5.569px 11.137px 0px rgba(171, 190, 209, 0.40);
+}
+
+
+#updates .cards .content .detail h4 {
+    color: var(--neutral-grey, #717171);
+    font-size: 12.921px;
+    font-weight: 600;
+    line-height: 19.49px;
+}
+
+#updates .cards .content .detail a {
+    margin-top: 11.5px;
+    color: var(--primary, #4CAF4F);
+    font-size: 13.921px;
+    font-weight: 600;
+    line-height: 19.49px;
+}
+
+
+
+
+
+
+
+/* * ============= */
+/* * DEMO */
+/* * ============= */
+
+#demo {
+    padding: 22.2px 0;
+    background: var(--neutral-silver, #F5F7FA);
+}
+
+#demo .text {
+    width: clamp(250px, 100%, 580px);
+    text-align: center;
+    margin: auto;
+}
+
+#demo .text h1 {
+    color: var(--neutral-black, #263238);
+    font-size: 44.5px;
+    font-weight: 600;
+    line-height: 52.901px;
+    margin-bottom: 22.27px;
+}
+
+
+
+/* ============= */
+/* FOOTER */
+/* ============= */
+
+/* ------- */
+/* LOGO */
+
+footer {
+    padding: 44.3px 0;
+    background: var(--neutral-black, #263238);
+}
+
+footer p {
+    color: var(--neutral-silver, #F5F7FA);
+    font-size: 9.745px;
+    margin: 5.57px 0;
+    font-weight: 400;
+    line-height: 13.921px;
+}
+
+footer .logo {
+    display: flex;
+    gap: 7px;
+    color: var(--neutral-white, #FFFFFF);
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+footer .logo h2 {
+    color: var(--neutral-white, #FFFFFF);
+    font-family: Inter;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+
+footer .logo img {
+    width: 30.12px;
+    height: 20.654px;
+}
+
+footer .icons {
+    margin-top: 27px;
+    display: flex;
+    gap: 11.3px;
+}
+
+footer .icons img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* ------------- */
+/* DETAILS */
+
+footer h4 {
+    color: var(--neutral-white, #FFF);
+
+    font-size: 13.921px;
+    font-weight: 600;
+    line-height: 19.49px;
+    margin-bottom: 17px;
+}
+
+/* SEND FIELD */
+
+footer .send-field {
+    width: 177.498px;
+
+    position: relative
+}
+
+footer .send-field input {
+    border: 0;
+    outline: 0;
+    padding: 7px 9px;
+    border-radius: 5.569px;
+    color: white;
+    opacity: 0.2;
+    background: var(--neutral-d_grey, #FFF);
+    opacity: 1;
+}
+
+footer .send-field input::placeholder {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 9.745px;
+    font-weight: 400;
+    line-height: 13.921px;
+
+}
+
+footer .send-field img {
+    right: 9px;
+    top: 50%;
+    translate: 0 -50%;
+    position: absolute;
+    width: 12.529px;
+    height: 12.529px;
+}
